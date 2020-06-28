@@ -149,19 +149,20 @@ function setupElement645438753736612365() {
 	});
 
 }
-
-if (typeof document.documentElement.appReady == 'undefined') {
-	document.documentElement.appReady = 0;
-}
-
-if (document.documentElement.appReady || (window.inEditor && window.inEditor())) {
-	setupElement645438753736612365();
-} else if (document.createEvent && document.addEventListener) {
-	document.addEventListener('appReady', setupElement645438753736612365, false);
-} else {
-	document.documentElement.attachEvent('onpropertychange', function(event){
-		if (event.propertyName == 'appReady') {
-			setupElement645438753736612365();
-		}
-	});
+if (typeof document !== 'undefined') {
+	if (typeof document.documentElement.appReady == 'undefined') {
+		document.documentElement.appReady = 0;
+	}
+	
+	if (document.documentElement.appReady || (window.inEditor && window.inEditor())) {
+		setupElement645438753736612365();
+	} else if (document.createEvent && document.addEventListener) {
+		document.addEventListener('appReady', setupElement645438753736612365, false);
+	} else {
+		document.documentElement.attachEvent('onpropertychange', function(event){
+			if (event.propertyName == 'appReady') {
+				setupElement645438753736612365();
+			}
+		});
+  }
 }
