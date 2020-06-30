@@ -291,10 +291,10 @@
  .wsite-button-normal .wsite-button-inner, .wsite-editor .wsite-button-normal .wsite-button-inner { color: #ffffff; }
  .wsite-button-highlight, .wsite-editor .wsite-button-highlight { background-color: #ffffff; box-shadow: 0 0 0 1px #4f4f4e inset; }
  .wsite-button-highlight:hover, .wsite-editor .wsite-button-highlight:hover { background-color: #4f4f4e; }
- .wsite-button-highlight:hover .wsite-button-inner, .wsite-editor .wsite-button-highlight:hover .wsite-button-inner { color: #ffffff; }
- .wsite-button-highlight .wsite-button-inner, .wsite-editor .wsite-button-highlight .wsite-button-inner { color: #4f4f4e; }
- .wsite-button, .wsite-button-highlight, .wsite-button-large.wsite-button-highlight, .wsite-editor .wsite-button-highlight, .wsite-editor .wsite-button-large.wsite-button-highlight { background-image: none; }
- .wsite-button .wsite-button-inner, .wsite-button-highlight .wsite-button-inner, .wsite-button-large.wsite-button-highlight .wsite-button-inner, .wsite-editor .wsite-button-highlight .wsite-button-inner, .wsite-editor .wsite-button-large.wsite-button-highlight .wsite-button-inner { background-image: none; }
+ .wsite-button-highlight:hover .wsite-button-inner, .wsite-editor .wsite-button-highlight:hover .wsite-button-inner { color: #ffffff; text-decoration: none; }
+ .wsite-button-highlight .wsite-button-inner, .wsite-editor .wsite-button-highlight .wsite-button-inner { color: #4f4f4e; text-decoration: none; }
+ .wsite-button, .wsite-button-highlight, .wsite-button-large.wsite-button-highlight, .wsite-editor .wsite-button-highlight, .wsite-editor .wsite-button-large.wsite-button-highlight { background-image: none; text-decoration: none; }
+ .wsite-button .wsite-button-inner, .wsite-button-highlight .wsite-button-inner, .wsite-button-large.wsite-button-highlight .wsite-button-inner, .wsite-editor .wsite-button-highlight .wsite-button-inner, .wsite-editor .wsite-button-large.wsite-button-highlight .wsite-button-inner { background-image: none; text-decoration: none;}
  #wsite-com-breadcrumbs.wsite-com-product-breadcrumbs, #wsite-com-breadcrumbs.wsite-com-category-breadcrumbs { display: -webkit-flex; display: -ms-flexbox; display: -ms-flex; display: flex; -ms-flex-pack: center; -webkit-justify-content: center; -ms-justify-content: center; justify-content: center; -ms-flex-align: center; -webkit-align-items: center; -ms-align-items: center; align-items: center; -webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap; height: 87px; padding: 0; background-color: #fafafa; text-align: center; }
  #wsite-com-breadcrumbs.wsite-com-product-breadcrumbs .wsite-com-breadcrumb, #wsite-com-breadcrumbs.wsite-com-category-breadcrumbs .wsite-com-breadcrumb { display: inline-block; float: none; }
  #wsite-com-breadcrumbs.wsite-com-product-breadcrumbs .wsite-com-breadcrumb > .wsite-com-link-text, #wsite-com-breadcrumbs.wsite-com-category-breadcrumbs .wsite-com-breadcrumb > .wsite-com-link-text { color: #c1c1c1; }
