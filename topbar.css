@@ -25,7 +25,7 @@
     color:#84d4fd;
   }
   /* Add a color to the active/current link */
-  .topnav a.active {
+  .topnav a:active {
     background-color: white;
     color:#84d4fd;
   }
