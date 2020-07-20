@@ -284,7 +284,7 @@
  .wsite-button, .wsite-editor .wsite-button { background-color: #84d4fd; -webkit-transition: background-color 0.2s ease-out; -o-transition: background-color 0.2s ease-out; transition: background-color 0.2s ease-out; display: inline-block; height: auto; padding: 0; background-image: none; text-align: center; }
  .wsite-button:hover, .wsite-editor .wsite-button:hover { background-color: #52c2fc; }
  .wsite-button .wsite-button-inner, .wsite-editor .wsite-button .wsite-button-inner { color: #ffffff; }
- .wsite-button .wsite-button-inner, .wsite-editor .wsite-button .wsite-button-inner { font-family: "Poppins", sans-serif; display: block; float: none; height: auto; padding: 0.625em 1.9375em; margin: 0; background: none; letter-spacing: 0.0625em; text-transform: capitalize; white-space: normal; font-weight: 600; line-height: 1.9; }
+ .wsite-button .wsite-button-inner, .wsite-editor .wsite-button .wsite-button-inner { font-family: 'Bebas Neue', cursive; display: block; float: none; height: auto; padding: 0.625em 1.9375em; margin: 0; background: none; letter-spacing: 0.0625em; text-transform: capitalize; white-space: normal; font-weight: 600; line-height: 1.9; }
  .wsite-button-large, .wsite-editor .wsite-button-large { font-size: 16px; }
  .wsite-button-small, .wsite-editor .wsite-button-small { font-size: 14px; }
  .wsite-button-normal, .wsite-editor .wsite-button-normal { background-color: #84d4fd; }
