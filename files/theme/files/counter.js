@@ -12,4 +12,4 @@ function animateValue(id, start, end, duration) {
         }
     }, stepTime);
 }
-animateValue("value", 0, 2251, 10000);
+animateValue("value", 0, 2651, 10000);
